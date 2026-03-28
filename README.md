@@ -2,15 +2,6 @@
 
 This document provides a production-focused backend implementation plan for a multiplayer Tic-Tac-Toe game using Nakama. It includes architecture, setup, implementation steps, deployment, configuration, and testing guidance.
 
-
-## Implementation Status in This Repo
-
-The repository now includes a runnable backend baseline:
-
-- `docker-compose.yml` for local Nakama + PostgreSQL.
-- `nakama/modules/index.js` with authoritative match logic and RPCs.
-- `docs/IMPLEMENTATION-STEPS.md` mapping requirements to concrete implementation artifacts.
-
 ## 1) Backend Scope and Goals
 
 The backend must provide:
